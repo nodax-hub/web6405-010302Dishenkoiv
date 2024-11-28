@@ -108,9 +108,6 @@ function sequence(start = 0, step = 1) {
  * @returns {boolean}
  */
 function deepEqual(firstObject, secondObject) {
-    // Если значения идентичны (включая NaN)
-    if (Object.is(firstObject, secondObject)) return true;
-
     // Проверка на null или не объекты
     if (
         firstObject == null ||
@@ -120,6 +117,9 @@ function deepEqual(firstObject, secondObject) {
     ) {
         return false;
     }
+
+    // Если значения идентичны (включая NaN)
+    if (Object.is(firstObject, secondObject)) return true;
 
     // Обработка объектов типа Date
     if (firstObject instanceof Date && secondObject instanceof Date) {
