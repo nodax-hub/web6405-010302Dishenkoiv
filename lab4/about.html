@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О нас</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="about.js"></script>
 </head>
 <body>
 <header>
@@ -16,24 +17,21 @@
     </nav>
 </header>
 <main>
-    <section>
+    <section style="display: flex; flex-direction: column; align-items: center;">
         <h2>Популярные направления</h2>
-        <table>
-            <tr>
-                <th>Страна</th>
-                <th>Столица</th>
-                <th>Дата посещения</th>
-            </tr>
-            <tr>
-                <td>Франция</td>
-                <td>Париж</td>
-                <td>Июль 2023</td>
-            </tr>
-            <tr>
-                <td>Япония</td>
-                <td>Токио</td>
-                <td>Май 2024</td>
-            </tr>
+        <table id="destinations-table">
+            <thead>
+                <tr>
+                    <th>Страна</th>
+                    <th>Столица</th>
+                    <th>Дата посещения</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3">Загрузка...</td>
+                </tr>
+            </tbody>
         </table>
     </section>
 </main>

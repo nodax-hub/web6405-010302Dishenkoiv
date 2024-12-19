@@ -12,7 +12,7 @@ function isInteger(n) {
  * @returns {number[]}
  */
 function even() {
-    return Array.from({ length: 10 }, (_, i) => (i + 1) * 2);
+    return Array.from({length: 10}, (_, i) => (i + 1) * 2);
 }
 
 /**
