@@ -1,0 +1,17 @@
+{
+  "/destinations": {
+    "get": [
+      {
+        "country": "Франция",
+        "capital": "Париж",
+        "visit_date": "Июль 2023"
+      },
+      {
+        "country": "Япония",
+        "capital": "Токио",
+        "visit_date": "Май 2024"
+      }
+    ]
+
+  }
+}
