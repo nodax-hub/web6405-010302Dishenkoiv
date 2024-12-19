@@ -106,7 +106,8 @@ describe('Задания core js', () => {
     });
 
     describe('#deepEqual', () => {
-        const dummyFunction = () => {};
+        const dummyFunction = () => {
+        };
 
         it('Возвращает true если объекты равны', () => {
             assert.equal(
@@ -178,7 +179,10 @@ describe('Задания core js', () => {
             assert.strictEqual(core.deepEqual(null, 0), false);
             assert.strictEqual(core.deepEqual(null, undefined), false);
             assert.equal(
-                core.deepEqual({func: dummyFunction}, {func: () => {}}),
+                core.deepEqual({func: dummyFunction}, {
+                    func: () => {
+                    }
+                }),
                 false
             );
         });

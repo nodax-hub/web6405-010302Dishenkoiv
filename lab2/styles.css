@@ -5,52 +5,63 @@ body {
     margin: 0;
     padding: 0;
 }
+
 h1, h2 {
     color: #333;
     text-align: center;
 }
+
 nav {
     text-align: center;
     margin-bottom: 20px;
 }
+
 nav a {
     margin: 0 15px;
     text-decoration: none;
     color: #008080;
 }
+
 table {
     width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
 }
+
 th {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
 }
+
 td {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: left;
 }
+
 td.right-align {
     text-align: right;
 }
+
 footer {
     text-align: center;
     padding: 10px;
     background-color: #eee;
     margin-top: 20px;
 }
+
 img {
     display: block;
     margin: 20px auto;
 }
+
 .contact-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .contact-form {
     width: 60%;
     text-align: left;
